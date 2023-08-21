@@ -26,6 +26,16 @@ nav ul {
     margin: 0;
 }
 
+@media only screen and (max-width: 767px) {
+    nav ul {
+        height: 80px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
 /* Header */
 
 header {
@@ -73,7 +83,7 @@ header p {
 .panorama p {
     font-size: 18px;
     align-self: flex-start;
-    margin: 20px 120px;
+    margin: 20px 5%;
 }
 
 .panorama a {
@@ -88,11 +98,26 @@ header p {
 }
 
 .image img{
-    height: 400px;
+    /*height: 400px;*/
     background-color: burlywood;
     border-radius: 20px;
-    width: 400px;
+    width: 25%;
     padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .image {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img{
+        height: 500px;
+        border-radius: 20px;
+        width: 90%;
+        margin: 20px 0;
+    }
 }
 
 .com {
