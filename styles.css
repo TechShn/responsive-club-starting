@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Rye&display=swap');
+
+body {
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Nav */
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    list-style: none;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    height: 500px;
+    width: 100%;
+    background-image: url(./images/reinhart-julian-WxM465oM4j4-unsplash.jpg);
+    background-size: cover;
+    background-position: 0% 45%;
+}
+
+h1 {
+    font-family: "Rye";
+    height: 50px;
+    background-color: hsla(120, 100%, 25%, 0.3);
+    color: white;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+header p {
+    font-family: "Rye";
+    color: white;
+    padding: 10px 10px;
+}
+
+/* Main */
+
+.panorama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.panorama h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rye";
+    height: 50px;
+    width: 100%;
+    background-color: hsla(120, 100%, 25%, 0.8);
+}
+
+.panorama p {
+    font-size: 18px;
+    align-self: flex-start;
+    margin: 20px 120px;
+}
+
+.panorama a {
+    color: white;
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.image img{
+    height: 400px;
+    background-color: burlywood;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+}
+
+.com {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
